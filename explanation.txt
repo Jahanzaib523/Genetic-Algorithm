@@ -1,0 +1,23 @@
+
+values of n w s are defined globally
+a random function is used to initialize them
+
+then there is a method Read() which is called used 
+to read data from csv file and store in variables
+
+read method will only be called when a variable generate
+is set true otherwise initialize_knapsack_table will be called
+ 
+for crossover probability small changes have been made 
+like creating separate variable for storing probability and 
+after that it is used in loop to crossover only the required 
+number of times
+
+Then for tournament selection
+a global variable is initialize to take subset of population
+in method tournament() a small subset is taken and best cromosome is chosen
+
+
+for plots I have changed some called main method multiple times
+but with different values of Mutation and Crossover probability
+and a graph is ploted.
